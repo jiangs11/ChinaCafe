@@ -7,8 +7,8 @@ function ConnectDB() {
     /*** mysql server info ***/
     $hostname = 'localhost';
     $username = 'root';
-    $password = 'Kaneki420!';
-    $dbname   = 'chinacafe';
+    $password = '';
+    $dbname   = '';
 
     try {
         $dbh = new PDO("mysql:host=$hostname;dbname=$dbname",
